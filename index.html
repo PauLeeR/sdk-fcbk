@@ -10,18 +10,13 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<div id="fb-root"></div>
 	<div class="botoncito">
-	<button class="default">LOG IN</button>
-		
-	</div>
-	<fb:login-button 
-	scope="public_profile,email"
-	onlogin="checkLoginState();">
+		<fb:login-button 
+		scope="public_profile,email"
+		onlogin="checkLoginState();">
 	</fb:login-button>
-
-
-
-
+</div>
 
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
